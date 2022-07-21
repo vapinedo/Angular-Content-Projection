@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 
+  realMadridOdLegendList: string[] = [
+    'Juanito',
+    'Sanchis',
+    'Di Stefano',
+    'Buitragueño',
+    'Hugo Sanchez',
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

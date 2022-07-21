@@ -1,1 +1,14 @@
-<p>child works!</p>
+<h3>Real Madrid</h3>
+<ng-content></ng-content>
+<hr>
+
+<div class="mb-3">
+    <h4 class="text-muted">Old Legends</h4>
+    <ul>
+        <li *ngFor="let legend of realMadridOdLegendList">{{legend}}</li>
+    </ul>
+</div>
+
+<ng-template [ngIf]="true">
+    Disclaimer
+</ng-template>
